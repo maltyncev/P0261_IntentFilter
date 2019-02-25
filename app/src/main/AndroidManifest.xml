@@ -19,7 +19,7 @@
 
         <activity android:name=".ActivityTime">
             <intent-filter>
-                <action android:name="android.intent.action.showtime" />
+                <action android:name="ru.startandroid.intent.action.showtime" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -29,7 +29,7 @@
             android:name=".ActivityDate"
             android:label="Date basic">
             <intent-filter>
-                <action android:name="android.intent.action.showdate" />
+                <action android:name="ru.startandroid.intent.action.showdate" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -39,7 +39,7 @@
             android:name=".ActivityDateEx"
             android:label="Date extended">
             <intent-filter>
-                <action android:name="android.intent.action.showdate" />
+                <action android:name="ru.startandroid.intent.action.showdate" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
